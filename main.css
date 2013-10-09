@@ -1,0 +1,103 @@
+html{
+
+}
+
+body {
+	margin:0;
+
+
+}
+
+.left-content {
+	height: 100%;
+	width: 78%;
+	background-color: blue;
+	display: inline-block;
+}
+
+.right-content {
+	height: 100%;
+	width: 20%;
+	background-color: red;
+	float: right;
+	display: inline-block;
+}
+
+.image-overlay {
+	opacity: .45;
+	background-image: url("rock.png");
+	background-position-y: 29%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 250px;
+	width: 100%;
+}
+
+header {	
+	text-align: center;
+	color: white;
+	padding-top: 77px;
+	font-size: 77px;
+	transition:all 1s ease-in-out; 
+    -o-transition:all 1s ease-in-out; 
+    -moz-transition:all 1s ease-in-out; 
+    -webkit-transition:all 1s ease-in-out;
+
+
+}
+
+footer {
+	height: 200px;
+	width: 100%;
+	background-color: green;
+}
+
+.wrapper {
+
+}
+
+@media (max-width: 1350px) {
+	header {
+		font-size: 67px;
+		transition:all 1s ease-in-out; 
+    	-o-transition:all 1s ease-in-out; 
+    	-moz-transition:all 1s ease-in-out; 
+    	-webkit-transition:all 1s ease-in-out;
+
+	}
+}
+		
+
+@media (max-width: 1200px) {
+	header {
+		font-size: 57px;
+		transition:all 1s ease-in-out; 
+    	-o-transition:all 1s ease-in-out; 
+    	-moz-transition:all 1s ease-in-out; 
+    	-webkit-transition:all 1s ease-in-out;
+
+	}
+}
+
+@media (max-width: 1050px) {
+	header {
+		font-size: 47px;
+		transition:all 1s ease-in-out; 
+    	-o-transition:all 1s ease-in-out; 
+    	-moz-transition:all 1s ease-in-out; 
+    	-webkit-transition:all 1s ease-in-out;
+
+	}
+}
+
+@media (max-width: 850px) {
+	header {
+		font-size: 40px;
+		transition:all 1s ease-in-out; 
+    	-o-transition:all 1s ease-in-out; 
+    	-moz-transition:all 1s ease-in-out; 
+    	-webkit-transition:all 1s ease-in-out;
+
+	}
+}
+
