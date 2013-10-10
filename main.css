@@ -23,6 +23,7 @@ body {
 	display: inline-block;
 }
 
+
 .image-overlay {
 	opacity: .45;
 	background-image: url("rock.png");
@@ -31,13 +32,44 @@ body {
 	background-size: 100%;
 	height: 250px;
 	width: 100%;
+	font-weight: bold;
+}
+
+.linkRight a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+
+span .1 {
+	font-size: 30px;
+}
+
+.linkRight {
+	float: right;
+	padding: 2%;
+	padding-right: 15%;
+}
+
+.link {
+	float: left;
+	padding: 2%;
+	padding-left: 15%;
+	color: white;
+}
+
+.link a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
 }
 
 header {	
 	text-align: center;
 	color: white;
 	padding-top: 77px;
-	font-size: 77px;
+	font-size: 67px;
 	transition:all 1s ease-in-out; 
     -o-transition:all 1s ease-in-out; 
     -moz-transition:all 1s ease-in-out; 
@@ -56,7 +88,7 @@ footer {
 
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
 	header {
 		font-size: 67px;
 		transition:all 1s ease-in-out; 
@@ -92,6 +124,7 @@ footer {
 
 @media (max-width: 850px) {
 	header {
+
 		font-size: 40px;
 		transition:all 1s ease-in-out; 
     	-o-transition:all 1s ease-in-out; 
