@@ -4,8 +4,6 @@ html{
 
 body {
 	margin:0;
-
-
 }
 
 .left-content {
@@ -23,12 +21,14 @@ body {
 	display: inline-block;
 }
 
+								/* BEGIN HEADER BAR */
+
 .overlay {
 	background: rgba(9, 6, 98, 0.44);
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 177;
+    bottom: 325;
     left: 0;
 
 }
@@ -47,18 +47,26 @@ body {
 	position: absolute;
 	color: blanchedalmond;
 	text-decoration: none;
-	font-size: 20px;
-	
+	font-size: 20px;	
 }
 
-span .1 {
-	font-size: 30px;
+.linkRight2 a {
+	position: absolute;
+	color: blanchedalmond;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.linkRight2 {
+	float: right;
+	padding: 2%;
+	padding-right: 8%;
 }
 
 .linkRight {
 	float: right;
 	padding: 2%;
-	padding-right: 15%;
+	padding-right: 21%;
 }
 
 .link {
@@ -77,6 +85,7 @@ span .1 {
 }
 
 header {	
+	margin-left: 12%;
 	position: absolute;
 	text-align: center;
 	color: white;
@@ -91,22 +100,20 @@ header {
 h2 {
 	text-align: center;
 	color: blanchedalmond;
-	margin-top: 0;
+	margin-top: 170;
 	margin-left: 38%;
 	position: absolute;
 	font-size: 20px;
 }
+
+								/* END HEADER BAR */
 
 footer {
 	height: 200px;
 	width: 100%;
 	background-color: green;
 }
-
-.wrapper {
-
-}
-
+								/* BEGIN @media query section */
 @media (max-width: 1400px) {
 	header {
 		font-size: 67px;
@@ -114,14 +121,16 @@ footer {
     	-o-transition:all 1s ease-in-out; 
     	-moz-transition:all 1s ease-in-out; 
     	-webkit-transition:all 1s ease-in-out;
-
 	}
-
+	.overlay{
+		bottom: 177;
+	}
 }
 		
 
 @media (max-width: 960px) {
 	header {
+		margin-left: 2%;
 		font-size: 57px;
 		transition:all 1s ease-in-out; 
     	-o-transition:all 1s ease-in-out; 
@@ -131,10 +140,14 @@ footer {
 	h2{
 		margin-left: 35%;
 	}
+	.overlay{
+		bottom: 177;
+	}
 }
 
 @media (max-width: 720px) {
 	header {
+		padding-top: 65px;
 		font-size: 47px;
 		transition:all 1s ease-in-out; 
     	-o-transition:all 1s ease-in-out; 
@@ -146,10 +159,17 @@ footer {
 		font-size: 17px;
 		margin-left: 32%;
 	}
+	.overlay{
+		bottom: 177;
+	}
+	.linkRight2 {
+		padding-right: 12%;
+	}
 }
 
 @media (max-width: 480px) {
 	header {
+		padding-top: 85px;
 		font-size: 36px;
 		transition:all .5s ease-in-out; 
     	-o-transition:all .5s ease-in-out; 
@@ -162,5 +182,14 @@ footer {
 		margin-right: 25%;
 		margin-left: 25%;
 	}
+	.overlay{
+		bottom: 177;
+	}
+	.linkRight2 {
+		padding-right: 18%;
+	}
 }
+
+								/* END @media query section */
+
 
