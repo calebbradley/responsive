@@ -23,9 +23,17 @@ body {
 	display: inline-block;
 }
 
+.overlay {
+	background: rgba(9, 6, 98, 0.44);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 177;
+    left: 0;
 
-.image-overlay {
-	opacity: .45;
+}
+
+.image {
 	background-image: url("rock.png");
 	background-position-y: 29%;
 	background-repeat: no-repeat;
@@ -36,7 +44,8 @@ body {
 }
 
 .linkRight a {
-	color: white;
+	position: absolute;
+	color: blanchedalmond;
 	text-decoration: none;
 	font-size: 20px;
 	
@@ -53,29 +62,39 @@ span .1 {
 }
 
 .link {
+	position: absolute;
 	float: left;
 	padding: 2%;
 	padding-left: 15%;
-	color: white;
+	color: blanchedalmond;
 }
 
 .link a {
-	color: white;
+	position: absolute;
+	color: blanchedalmond;
 	text-decoration: none;
 	font-size: 20px;
 }
 
 header {	
+	position: absolute;
 	text-align: center;
 	color: white;
-	padding-top: 77px;
+	padding-top: 84px;
 	font-size: 67px;
 	transition:all 1s ease-in-out; 
     -o-transition:all 1s ease-in-out; 
     -moz-transition:all 1s ease-in-out; 
     -webkit-transition:all 1s ease-in-out;
+}
 
-
+h2 {
+	text-align: center;
+	color: blanchedalmond;
+	margin-top: 0;
+	margin-left: 38%;
+	position: absolute;
+	font-size: 20px;
 }
 
 footer {
@@ -97,40 +116,51 @@ footer {
     	-webkit-transition:all 1s ease-in-out;
 
 	}
+
 }
 		
 
-@media (max-width: 1200px) {
+@media (max-width: 960px) {
 	header {
 		font-size: 57px;
 		transition:all 1s ease-in-out; 
     	-o-transition:all 1s ease-in-out; 
     	-moz-transition:all 1s ease-in-out; 
     	-webkit-transition:all 1s ease-in-out;
-
+	}
+	h2{
+		margin-left: 35%;
 	}
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 720px) {
 	header {
 		font-size: 47px;
 		transition:all 1s ease-in-out; 
     	-o-transition:all 1s ease-in-out; 
     	-moz-transition:all 1s ease-in-out; 
     	-webkit-transition:all 1s ease-in-out;
+	}
 
+	h2 {
+		font-size: 17px;
+		margin-left: 32%;
 	}
 }
 
-@media (max-width: 850px) {
+@media (max-width: 480px) {
 	header {
+		font-size: 36px;
+		transition:all .5s ease-in-out; 
+    	-o-transition:all .5s ease-in-out; 
+    	-moz-transition:all .5s ease-in-out; 
+    	-webkit-transition:all .5s ease-in-out;
+	}
 
-		font-size: 40px;
-		transition:all 1s ease-in-out; 
-    	-o-transition:all 1s ease-in-out; 
-    	-moz-transition:all 1s ease-in-out; 
-    	-webkit-transition:all 1s ease-in-out;
-
+	h2 {
+		font-size: 16px;
+		margin-right: 25%;
+		margin-left: 25%;
 	}
 }
 
