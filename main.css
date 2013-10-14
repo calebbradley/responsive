@@ -66,6 +66,7 @@ body {
 	color: blanchedalmond;
 	text-decoration: none;
 	font-size: 20px;
+	width: 136%;
 }
 
 header {	
@@ -273,7 +274,7 @@ h5 {
 	border-radius: 100px;
 }
 
-.c {
+.h {
 	text-align: center;
 	margin-top: -6%;
 	color: rgba(9, 6, 98, 1);
@@ -281,9 +282,14 @@ h5 {
 
 .links a {
 	text-decoration: none;
-	padding: 7px;
 	color: lightgray;
 	font-weight: bold;
+	float: right;
+	margin-right: 3px;
+}
+
+.links {
+	margin-right: 16%;
 }
 
 .smImage .overlay2 {
@@ -347,26 +353,31 @@ footer .foot {
 	margin-top: 80%;
 }
 
-.links a {
-	float: right;
-	border-right: solid;
-	border-color: gainsboro;
-}
-
 .nav {
 	margin-left: 10%;
+	width: 40%;
+	display: inline-block;
+	
 }
 
-/*
-.nav  {
+.navLinks {
+	margin-right: 10%;
+	width: 45%;
+	display: inline-block;
+}
+
+.navLinks li {
 	float: right;
-	border-left: solid;
-	border-color: gainsboro;
+	display: inline-block;
+	position: relative;
+	background: none;
+	width: auto;
+	height: auto;
+	line-height: 20px;
+	margin: 0 0 10px 20px;
+	font-size: 13px;
+	padding: 0;
 }
 
-.nav .5 {
-
-}
-*/
 
 								/* END FOOTER CONTENT */
