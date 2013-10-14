@@ -312,7 +312,7 @@ h5 {
 footer {
 	height: 700px;
 	width: 100%;
-	background-color: green;
+	background-color: rgb(9, 38, 88);
 	border-top: solid;
 	border-color: gainsboro;
 }
@@ -336,8 +336,8 @@ footer .foot {
 	text-align: center;
 }
 
-.bottom .bottom2 {
-	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS511MiVxBvdA8XCYS9OTp11nplKNGnQ5ALR0n-_5hkXt2TPtl-pg);
+.bottom .bottom1 {
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/3/3f/Karl_Malden_-_autographed.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 400px;
@@ -347,10 +347,61 @@ footer .foot {
 	padding: 7;
 }
 
+.bottom .bottom2 {
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/0/04/John_Ford_1946.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	width: 24%;
+	display: inline-block;
+	margin: -2;
+	padding: 7;
+}
+
+.bottom .bottom3 {
+	background-image: url(http://www.posters.ws/images/847658/john_wayne.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	width: 24%;
+	display: inline-block;
+	margin: -2;
+	padding: 7;
+}
+
+.bottom .bottom4 {
+	background-image: url(http://imgc.allpostersimages.com/images/P-473-488-90/37/3703/AW2AF00Z/posters/me-and-my-gal-spencer-tracy-1932.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+	width: 24%;
+	display: inline-block;
+	margin: -2;
+	padding: 7;
+}
+
+.bottom1 .txt {
+	color: blanchedalmond;
+	font-size: 32px;
+	margin-top: 100%;
+}
+
 .bottom2 .txt {
 	color: blanchedalmond;
 	font-size: 32px;
-	margin-top: 80%;
+	margin-top: 100%;
+}
+
+.bottom3 .txt {
+	color: blanchedalmond;
+	font-size: 32px;
+	margin-top: 100%;
+}
+
+.bottom4 .txt {
+	color: blanchedalmond;
+	font-size: 32px;
+	margin-top: 100%;
 }
 
 .nav {
