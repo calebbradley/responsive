@@ -233,6 +233,49 @@ h2 {
 	.linkRight2 {
 		padding-right: 12%;
 	}
+	.top-right .smImage {
+		max-height: 7%;
+	}
+	.links a {
+		font-size: 17px;
+	}
+	.right-content .image2 {
+		height: 160px;
+	}
+	.left-content {
+		max-height: 1000px;
+		overflow-y: scroll; 
+	}
+	.bottom .overlay3 {
+		height: 214px;
+		width: 109%;
+	}
+
+	.bottom .bottom1 {
+	text-align: center;
+	max-height: 200px;
+	max-width: 23.1%;
+	background-size: 188%;
+	}
+	
+	.bottom .bottom2 {
+	text-align: center;
+	max-height: 200px;
+	max-width: 23%;
+	}
+	
+	.bottom .bottom3 {
+	text-align: center;
+	max-height: 200px;
+	max-width: 23%;
+	}
+	
+	.bottom .bottom4 {
+	text-align: center;
+	max-height: 200px;
+	max-width: 23.1%;
+	}
+	
 }
 
 @media (max-width: 480px) {
