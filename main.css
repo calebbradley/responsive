@@ -13,7 +13,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 578;
+    height: 250px;
     left: 0;
 
 }
@@ -103,9 +103,7 @@ h2 {
     	-moz-transition:all 1s ease-in-out; 
     	-webkit-transition:all 1s ease-in-out;
 	}
-	.overlay{
-		bottom: 177;
-	}
+	
 }
 								/* wwwwwwwww        960px        wwwwwwwwwwww*/
 @media (max-width: 960px) {
@@ -130,8 +128,8 @@ h2 {
 		margin-left: 35%;
 	}
 
-	.overlay{
-		bottom: 475;
+	.overlay {
+		bottom: 484px;
 	}
 
 	.bottom .overlay3 {
@@ -226,9 +224,6 @@ h2 {
 		font-size: 17px;
 		margin-left: 32%;
 	}
-	.overlay{
-		bottom: 475;
-	}
 	.linkRight2 {
 		padding-right: 12%;
 	}
@@ -301,9 +296,7 @@ h2 {
 		margin-right: 25%;
 		margin-left: 25%;
 	}
-	.overlay{
-		bottom: 475;
-	}
+	
 	.linkRight2 {
 		padding-right: 18%;
 	}
