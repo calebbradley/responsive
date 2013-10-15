@@ -107,8 +107,7 @@ h2 {
 		bottom: 177;
 	}
 }
-		
-
+								/* wwwwwwwww        960px        wwwwwwwwwwww*/
 @media (max-width: 960px) {
 	header {
 		margin-left: 2%;
@@ -212,7 +211,7 @@ h2 {
 	
 	
 }
-
+								/* wwwwwwwww        720px        wwwwwwwwwwww*/
 @media (max-width: 720px) {
 	header {
 		padding-top: 65px;
@@ -277,7 +276,7 @@ h2 {
 	}
 	
 }
-
+								/* wwwwwwwww        480px        wwwwwwwwwwww*/
 @media (max-width: 480px) {
 	header {
 		padding-top: 85px;
@@ -286,6 +285,15 @@ h2 {
     	-o-transition:all .5s ease-in-out; 
     	-moz-transition:all .5s ease-in-out; 
     	-webkit-transition:all .5s ease-in-out;
+	}
+
+	.right-content {
+		opacity: -1;
+	}
+
+	body {
+		max-width: 480px;
+		margin: 0;
 	}
 
 	h2 {
@@ -299,6 +307,47 @@ h2 {
 	.linkRight2 {
 		padding-right: 18%;
 	}
+
+	footer {
+		min-height: 2000px;
+	}
+	
+	.bottom {
+	text-align: center;
+	padding-top: 2px;
+	}
+
+	.bottom .overlay3 {
+	height: 414px;
+	width: 350px;
+	margin-top: -44px;
+	}
+
+	.bottom .bottom1 {
+	text-align: center;
+	max-height: 430px;
+	min-width: 70%;
+	background-size: 188%;
+	}
+	
+	.bottom .bottom2 {
+	text-align: center;
+	max-height: 430px;
+	min-width: 70%;
+	}
+	
+	.bottom .bottom3 {
+	text-align: center;
+	max-height: 430px;
+	min-width: 70%;
+	}
+	
+	.bottom .bottom4 {
+	text-align: center;
+	max-height: 430px;
+	min-width: 70%;
+	}
+	
 }
 
 								/* END @media query section */
