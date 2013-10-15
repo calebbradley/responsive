@@ -12,4 +12,6 @@ Designed to look good at the most common screen sizes-
   and
   1400px.
 
-Not Production Quality.
+Was my introduction to Responsive Design.
+
+Not Intended for Production.
