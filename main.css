@@ -135,6 +135,15 @@ h2 {
 		bottom: 475;
 	}
 
+	.bottom .overlay3 {
+	background: rgba(9, 6, 98, 0.44);
+	position: center;
+	height: 259px;
+	width: 106%;
+	margin-left: -7;
+	margin-top: -81;
+	}
+
 	.links {
 	padding-bottom: 60px;
 	}
