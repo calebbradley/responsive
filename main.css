@@ -119,6 +119,14 @@ h2 {
     	-webkit-transition:all 1s ease-in-out;
 	}
 
+	footer {
+		max-height: 550px;
+	}
+
+	.link a {
+		width: 200%;
+	}
+
 	h2{
 		margin-left: 35%;
 	}
@@ -168,6 +176,31 @@ h2 {
 	font-size: 20px;
 	padding: 9px;
 	}
+
+	.bottom .bottom1 {
+	text-align: center;
+	max-height: 245px;
+	max-width: 23.6%;
+	}
+	
+	.bottom .bottom2 {
+	text-align: center;
+	max-height: 245px;
+	max-width: 23.6%;
+	}
+	
+	.bottom .bottom3 {
+	text-align: center;
+	max-height: 245px;
+	max-width: 23.6%;
+	}
+	
+	.bottom .bottom4 {
+	text-align: center;
+	max-height: 245px;
+	max-width: 23.6%;
+	}
+	
 	
 }
 
@@ -401,6 +434,15 @@ footer .foot {
 	display: inline-block;
 	margin: -2;
 	padding: 7;
+}
+
+.overlay3 {
+	background: rgba(9, 6, 98, 0.44);
+    position: center;	
+	height: 414px;
+	width: 104%;
+	margin-left: -7;
+	margin-top: -44;
 }
 
 .bottom .bottom3 {
